@@ -1,0 +1,51 @@
+body{
+margin:0;
+padding:0;
+background-color:blue;
+}
+
+a{
+	text-decoration: none;
+	color: #56588c;
+	font-size: 30px;
+	margin-left: 10px;
+}
+
+header{
+	background: linear-gradient(to right, white,white,blue);
+	padding: 10px;
+}
+body{
+	color: white;
+}
+ 
+a:hover{
+color:purple;
+}	
+
+input:valid{
+background: lightgreen;
+}
+
+input:invalid{
+background: red;
+}
+
+input:focus{
+border: 2px solid green;
+}
+
+input[type=submit]{
+	padding: 10px;
+	background: linear-gradient(to right, purple,red);
+	border: none;
+    color: white;
+}
+
+input[type=reset]{
+	padding: 10px;
+	background: linear-gradient(to right, purple,red);
+	border: none;
+    color: white;
+}
+
