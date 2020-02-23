@@ -1,0 +1,77 @@
+body{
+margin:0;
+padding:0;
+}
+main{
+	  background:url("divback.png") #e8f0e5;
+	  background-size:50%;
+	  background-repeat:no-repeat;
+	  width:98%;
+	  background-position:95%;
+	  height:400px;
+	  padding:1%
+}	  
+
+.w-60{
+width:60%;
+float:left;
+height:100%;
+}	
+
+.w-40{
+width:30%;
+float:left;
+height:100%;
+}	
+
+.button1{
+ text-decoration:none;
+ padding:10px;
+ background-color:black;
+ color:white;
+ border-radius:20px;
+}
+
+h2{
+	margin-top:20px;
+}
+
+.button1:hover{
+box-shadow:0 0 10px black;
+}
+
+nav{
+	padding:0 10px;
+}
+
+a{
+text-decoration:none;
+}	
+	
+article{
+height:350px;
+background:linear-gradient(to right, gray, black, black);
+color:white;
+}
+
+.contact{
+color:black;
+}
+	
+a{
+color:black;
+}
+
+nav>a:hover{
+border-bottom:2px solid black;
+}	
+
+h1{
+font-size:60px;
+margin-bottom:100px;
+margin-top: -10px;
+}	
+
+
+
+	  
