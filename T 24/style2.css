@@ -1,47 +1,24 @@
-.div{
-	background: linear-gradient(to right, red, blue);
-	width: 500px;
-	height: 100px;
+body{
+	background: linear-gradient(#63403a, #d9bbb6, #d9bbb6, #d9bbb6, #d9bbb6 );
+}
+
+.songs{
+	width: 700px;
 	margin: 0 auto;
-	margin-top: 50px;
-	text-align: center;
-	padding-top: 100px;
-	color: white;
-	transition: all 0.5s ease;
+	margin-top: 100px;
 }
-
-.anim1:hover{
-box-shadow:inset 0 0 0 30px blue;
+p{
+    border-top: 1px solid black;
+	font-size: 16pt;
+	padding: 10px 0;
+	color: navy;
+	font-family: 'Comic Neue', cursive;
+}	
+audio{
+	width: 100%;
+	height: 45px;
 }
-
-.anim2:hover{
-opacity: 0.6;
-}
-
-.anim3:hover{
- transform: scale(1.5);
-}
-
-.anim4:hover{
- border-radius: 100px;
- width: 45%;
-}
-
-.anim5:hover{
- transform: rotateZ(580deg);
-}
-
-.anim6:hover{
- : ;
-}
-
-.text{
-	animation-duration:3s;
-	animation-name:animation;
-	animation-iteration-count:infinite;
-}
-
-@keyframes animation{
-	0%{transform:rotate(0deg);}
-	100%{transform:rotate(360deg);}
-}
+h1{
+	font-family: 'Caveat', cursive;
+	font-size: 45pt;
+}	
