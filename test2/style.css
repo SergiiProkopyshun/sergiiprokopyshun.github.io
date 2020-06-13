@@ -1,0 +1,140 @@
+body{
+    padding: 0;
+	margin: 0;
+    font-family: sans-serif;
+}
+.menu{
+	background: linear-gradient(45deg, black, transparent);
+	width: 100%;
+	height: 50px;
+	font-size: 20px;
+	padding: 5 15px;
+	display: flex;
+	align-items: center;
+	border: 2px solid black;
+}	
+.menu>a{
+	text-decoration: none;
+	color: white;
+    transition: color 0.4s;
+	margin-left: 20px;
+}
+.menu>a:hover{
+	color: #918b8a;
+}
+
+.main{
+	background: linear-gradient(45deg, transparent,black);
+	width: 100%;
+	height: 200%;
+	color: white;
+	padding: 10px;
+}
+.car{
+	display: flex;
+}
+img{
+	margin: 20px;
+}
+p{
+	color: white;
+    padding: 20px;
+	width: 40%;
+}
+ul{
+    padding: 20px;
+	color: white;
+}
+
+
+			/*Gallery*/
+
+.main_2{
+	background: linear-gradient(45deg, transparent,black);
+	width: 100%;
+	height: 125%;
+	color: white;
+	padding: 10px;
+}
+.gallery{
+	padding-left: 6%;
+}	
+
+#photo{
+   width: 22%;
+   padding-left: 1.5%;
+   transition: transform 0.5s ease;
+}	
+#photo:hover{
+   transform: scale(1.2);
+}	
+
+           /*Увійти*/
+	
+.main_3{
+	background: white;
+    width: 100%;
+	height: 100%;
+	color: white;
+	padding: 30px;
+}	
+.blok{
+	background: #fff;
+	width: 520px; 
+	height: 410px;
+	border-radius: 0px;
+	padding: 10px;
+	margin: 40px;
+	border: double black;
+}
+input[type=text]{
+	text-align: center;
+    width: 310px;
+	height: 30px;
+	border: 2px solid black;
+}
+input[type=email]{
+	text-align: center;
+    width: 310px;
+	height: 30px;
+	border: 2px solid black;
+}
+input[type=password]{
+	text-align: center;
+    width: 310px;
+	height: 30px;
+	border: 2px solid black;
+}
+label{
+	color: black;
+	font-size: 20px;
+}
+h2{
+	color: black;
+}	
+.button{
+	width: 150px;
+	height: 45px;
+	background: black;
+    transition: background 0.3s;
+	color: white;
+	border: 2px solid black;
+	
+}
+.button:hover{
+	background: #505254;
+}
+footer{
+	background: black;
+	padding: 20px 10px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+    font-size: 25px;
+	color: white;
+}
+h2{
+	font-size: 25px;
+	text-align: center;
+}
+	
